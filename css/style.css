@@ -1,0 +1,60 @@
+@import url("@media.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+.conteiner{
+    display: flex;
+}
+.header{
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    height: 10rem;
+}
+.imglogo{
+    border: 2px solid red;
+    width: 10rem;
+    height: auto;
+}
+.imgnav{
+    border: 2px solid red;
+    width: 5rem;
+    height: auto;
+}
+.nav{
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    height: 5rem;
+}
+.main{
+    border: 2px solid red;
+    width: 80%;
+    background-image: url(../img/Logo_full.JPG);
+    background-size: cover;
+    background-position: center;
+
+}
+.imgmain{
+    width: 80%;
+}
+.aside{
+    border: 2px solid blue;
+    display: flex;
+    justify-content: center;
+    width: 20%;
+}
+.footer{
+    border: 2px solid red;
+    background-color: rgba(245, 245, 220, 0.519);
+    display: flex;
+    justify-content: center;
+}
