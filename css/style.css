@@ -67,22 +67,48 @@ body{
     position: sticky;
     top: 0;
 }
-.main{
+main{
+    
     border: 2px solid red;
     width: 80%;
-    background-image: url(../img/Logo_full.JPG);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: azure;
+    /*background-image: url(../img/Logo_full.JPG);
     background-size: cover;
-    background-position: center;
+    background-position: center;*/
 
 }
-.imgmain{
-    width: 80%;
+.centrarelemento{
+    display: flex;
+    justify-content: center;
+}
+.contmain{
+    border: 2px solid red;
+    display: flex;
+    justify-self: center;
+    }
+.boxmain{
+    border: 2px solid red;
+    width: 33.33%;
+    /*display: flex;
+    flex-direction: column;
+    justify-content: center;*/
+    text-align: center;
+    padding: 2rem;
+}    
+.ms{                        /*margen superior*/
+    margin-top: 2rem;
 }
 .aside{
     border: 2px solid blue;
     display: flex;
     justify-content: center;
     width: 20%;
+}
+.p2{                          /*padding 2rem*/
+    padding: 2rem;
 }
 .footer{
     border: 2px solid red;
