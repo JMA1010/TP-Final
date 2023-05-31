@@ -88,8 +88,9 @@ body{
 }
 .mainpages{
     width: 100%;
-    height: 40rem;
+    height: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: azure;
@@ -132,4 +133,46 @@ body{
     justify-content: center;
     align-items: center;
     height: 5rem;
+}
+
+/* --------------------------------------Style ap.html------------------------------------- */
+
+.conteinerap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*align-items: flex-start;*/
+    width: 60%;
+    height: 80rem;
+
+}
+.boxap{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 20rem;
+
+}
+.subboxap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    /*align-items: center;*/
+    width: 50%;
+    height: 100%;
+    padding: 2rem;
+
+}
+
+/* --------------------------------------Style contact.html------------------------------------- */
+
+.marg{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.sic{                           /* Tamaño del imput "Comentario" */
+    height: 10rem;
+    display: flex;
+    align-items: flex-start ;
 }
