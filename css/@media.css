@@ -1,39 +1,121 @@
-@media  (max-width: 768px){
+@media  (max-width: 769px){
     .contmain{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        }    
+    }    
     .boxmain{
-        border: 2px solid red;
         width: 100%;
-        padding: 1rem;
-        }
-        .boxmain img{
-            width: 100%;
-            height: auto;
-        }
-        .header{
-            display: none;
-        }
-        .header2{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            background-color: black;
+        
+    }
+    .boxmain img{
+        width: 100%;
+        height: auto;
+    }
+   
+    .header2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: black;
+        padding: 2rem;
+    }
+    .header{
+        display: none;
+    }
+        
+    .oculto{
+        display: none;    
+    }
+    .conteiner{
+        display: flex;
+        flex-direction: column;
+    }
+    .mainindex{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: azure;
+        padding: 2rem;
+        text-align: center;
+    }    
+    .aside{
+        display: flex;
+        justify-content: center;
+        background-color: bisque;
+        width: 100%;
+        text-align: center;
+    }
+    .boxap{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+   .form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 80%;
+
+}  
             
 }
-@media  (min-width: 768px){
-    .boxmain{
-        border: 2px solid blue;
+@media screen and (min-width: 770px){
+    .boxmain{        
         width: 33.33%;
         padding: 2rem;
         }
-        .boxmain img{
-            width: 100%;
-            height: auto;
+    .boxmain img{
+        width: 100%;
+        height: auto;
         }
-        
-        
-         
+    .header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        height: 30rem;
+    }
+    .header2{
+        display: none;
+    }
+    .conteiner{
+        display: flex;
+        flex-direction: row;
+    }
+    .mainindex{
+        width: 80%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: azure;
+        padding: 2rem;
+        text-align: center;
+    }    
+    .aside{
+        display: flex;
+        justify-content: center;
+        background-color: rgba(184, 171, 101, 0.796);
+        width: 20%;
+        text-align: center;
+    }
+    .boxap{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 50em;
+    }   
 }

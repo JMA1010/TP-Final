@@ -9,44 +9,15 @@ body{
     display: flex;
     flex-direction: column;
 }
-.conteiner{
-    display: flex;
-}
-
-/*Style Header*/
-.header{
-    /*border: 2px solid red;*/
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-    height: 30rem;
-}
-.header2{
-display: flex;
-flex-direction: column;
-justify-content: center;
-background-color: black;
-display: none;
-}
-.oculto{
-display: none;
-}
 .imgheaderlogo{
-    /*border: 2px solid red;*/
     width: 20rem;
     height: auto;
 }
 .imgheadereja{
-    /*border: 2px solid red;*/
     width: auto;
     height: 10rem;
 }
-
-
-.imgnav{
-    /*border: 2px solid red;*/
+.imgnav{   
     width: auto;
     height: 5rem;
     margin-left: 1rem;
@@ -57,9 +28,6 @@ body{
 .c {
     filter: invert(100%);
   }
-/*.paddindlogonav{
-    margin-left: 1 rem;
-} */ 
 .menu{
     justify-content: flex-end;
     background-color: rgba(0, 0, 0, 0.536); 
@@ -75,7 +43,6 @@ body{
     padding: 0;
 }
 .nav{
-    /*border: 2px solid red;*/
     display: flex;
     justify-content: center;
     height: 5rem;
@@ -83,15 +50,39 @@ body{
     position: sticky;
     top: 0;
 }
-.mainindex{
-    
-    border: 2px solid red;
-    width: 80%;
+
+.centrarelemento{
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    background-color: azure;
+    
+}
+.contmain{    
+    display: flex;
+    justify-content: center;
     }
+.boxmain{
+    text-align: center;    
+}
+
+.ms{                        /*margen superior*/
+    margin-top: 2rem;
+}
+
+.p2{                          /*padding 2rem*/
+    padding: 1rem;
+}
+.footer{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 8rem;
+    padding: 1rem;
+    margin: auto;
+}
+
+/* --------------------------------------Style ap.html------------------------------------- */
 
 .mainpages{
     width: 100%;
@@ -99,69 +90,26 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     background-color: azure;
+    padding: 0.5rem;
+    text-align: center;    
 }
-.centrarelemento{
-    display: flex;
-    justify-content: center;
-}
-.contmain{
-    
-    display: flex;
-    justify-content: center;
-    }
-.boxmain{
-    text-align: center;
-    padding: 2rem;
-}
-
-.ms{                        /*margen superior*/
-    margin-top: 2rem;
-}
-.aside{
-    display: flex;
-    justify-content: center;
-    background-color: bisque;
-    width: 20%;
-}
-
-.p2{                          /*padding 2rem*/
-    padding: 2rem;
-}
-.footer{
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 5rem;
-}
-
-/* --------------------------------------Style ap.html------------------------------------- */
-
 .conteinerap{
     display: flex;
+    justify-content: center;
     flex-direction: column;
-    justify-content: center;
-    /*align-items: flex-start;*/
-    width: 60%;
-    height: 80rem;
-
 }
-.boxap{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 20rem;
 
+.subboxap img{
+    width: 100%;
+    height: auto;
 }
 .subboxap{
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    /*align-items: center;*/
-    width: 50%;
+    width: 100%;
     height: 100%;
     padding: 2rem;
 
@@ -169,12 +117,18 @@ body{
 
 /* --------------------------------------Style contact.html------------------------------------- */
 
-.marg{
+.maincontact{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: azure;
+    padding: 0.5rem;
+    text-align: center;
     margin-top: 2rem;
     margin-bottom: 2rem;
+  
 }
 .sic{                           /* Tamaño del imput "Comentario" */
     height: 10rem;
-    display: flex;
-    align-items: flex-start ;
-}
+    }
